@@ -1,0 +1,34 @@
+.social-networks{
+    display: flex;
+    justify-content: center;
+}
+.social-networks a i{
+    font-size: 38px;
+    color: $color-gray;
+    margin: 20px;
+    opacity: .2;
+    transition: .2s;
+}
+.social-networks a i:hover{
+    opacity: 1;
+}
+.social-networks a:nth-of-type(1) i:hover{
+    color: $color-facebook;
+}
+.social-networks a:nth-of-type(2) i:hover{
+    color: $color-twitter;
+}
+.social-networks a:nth-of-type(3) i:hover{
+    color: $color-instagram;
+}
+.social-networks a:nth-of-type(4) i:hover{
+    color: $color-codepen;
+}
+// TEXT
+
+.container-text-section-one{
+    text-align: center;
+    margin: 100px 30%;
+    font-size: 1.2rem;
+    color: $color-blue;
+}

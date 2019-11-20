@@ -1,0 +1,75 @@
+.container-section-three{
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+}
+.title-section-three{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: $color-dark-blue;
+    padding: 50px;
+}
+form input,
+form textarea,
+form button
+{
+    width: 400px;
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+form input,
+form textarea{
+    background: $color-codepen;
+    color: $color-white;
+    border: 3px solid transparent;
+}
+form textarea{
+    height: 100px;
+    max-width: 500px;
+    max-height: 200px;
+}
+form button{
+    border-radius: 0;
+    border: 0px;
+    background: $color-blue;
+    color: $color-white;
+    width: 425px;
+    transition: .2s;
+}
+form button:hover{
+    transform: scale(1.05);
+}
+::placeholder{
+    color: $color-white;
+    font-family: 'Open Sans', sans-serif;
+}
+.background-dark-blue{
+    background: $color-dark-blue;
+}
+.background-dark-blue p{
+    margin: 0px;
+    color: $color-white;
+    padding: 0px 0px 50px 20px;
+    font-size: 12px;
+    text-align: left;
+}
+.left-social-networks{
+    position: relative;
+    justify-content: flex-end;
+}
+.left-social-networks a i{
+    opacity: .8;
+    color: $color-white;
+}
+.left-social-networks h3{
+    position: absolute;
+    top: -40px;
+    right: 19%;
+    color: $color-white;
+}

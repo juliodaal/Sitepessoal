@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+$color-white: #ffffff;
+$color-blue: #093F7C;
+$color-gray: #949494;
+$color-facebook: #3b5998;
+$color-twitter: #00acee;
+$color-instagram:  rgba(221,42,123,1);
+$color-experience: #515bd4;
+$color-school: #8134af;
+$color-university: #f58529;
+$color-ips: #dd2a7b;
+$color-codepen: #353535;
+$color-dark-blue: #000b18;
+$color-dark-blue-two: #00172d;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 100vh;
+}
+@import 'imports/nav';
+@import 'imports/section-header';
+@import 'imports/container-section-one';
+@import 'imports/container-section-two-fixed';
+@import 'imports/container-section-three';
+@import 'imports/container-section-four';

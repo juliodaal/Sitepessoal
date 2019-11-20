@@ -1,0 +1,67 @@
+// BUTTON´
+.button{
+    position: fixed;
+    right: 100%;
+    bottom: 0;
+    margin: 10px;
+    display: none;
+    transition: .2s;
+}
+.button a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 8px;
+    margin: 0px 3px;
+    font-size: 12px;
+    border-radius: 3px;
+    color: $color-blue;
+    text-transform: uppercase;
+    background: $color-white;
+    border: 1px solid $color-blue;
+    cursor: pointer;
+}
+.left{
+    left: 0;
+}
+.button a:hover{
+    color: $color-white;
+    background: $color-blue;
+}
+// CONTAINER FIXED
+.section-two{
+    position: relative;
+    height:500vh;
+}
+.container-section-two-fixed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 100vh;
+}
+.fixed-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    transition: .2s;
+}
+.fixed-section:nth-of-type(1){
+    background: $color-blue;
+    color: $color-white;
+}
+.fixed-section:nth-of-type(1) h6,
+.fixed-section:nth-of-type(1) p{
+    display: none;
+}
+.fixed-section:nth-of-type(2){
+    background: $color-white;
+    color: $color-blue;
+}
+.fixed-section:nth-of-type(2) h2,
+.fixed-section:nth-of-type(2) strong,
+.fixed-section:nth-of-type(2) h5{
+    display: none;
+}
